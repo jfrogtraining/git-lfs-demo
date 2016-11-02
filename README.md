@@ -11,3 +11,5 @@ Use the command ```open .``` to see everything that is currently inside the Gith
 Add files that you would like to push to the Github repository and any large files that you would like to push to the Git LFS local repository in Artifactory.
 
 Now, type the command ```git lfs track “*.<file extension>”```. The file extension should match the file extension of the files you would like to push to the Git LFS repository in Artifactory. For example, if we wanted to push all the zip and war files to the Git LFS repository, we would type in ```git lfs track “*.zip”```, then ```git lfs track “*.war”```.
+
+Finally, use the command ```git lfs push origin master``` to push all the source code to the Github repository and the large files to the Git LFS repository in Artifactory.
