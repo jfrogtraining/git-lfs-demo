@@ -3,8 +3,7 @@ This repository demonstrates Git LFS use with Artifactory.
 
 Create a local repository in Artifactory of type Git LFS. For this example, we will be using a repository called gitlfs-local on https://104.197.232.86/artifactory. To log in, the username is gitlfs and password is demo.
 
-Clone the repository using the command ```git clone https://github.com/jfrogtraining/git-lfs-demo.git```.
-Go into that repository using the command cd git-lfs-demo.
+Clone the repository using the command ```git clone https://github.com/jfrogtraining/git-lfs-demo.git```. Go into that repository.
 
 Use the command ```open .``` to see everything that is currently inside the Github repository.
 
