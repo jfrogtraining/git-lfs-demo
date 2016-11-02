@@ -3,7 +3,7 @@ This repository demonstrates Git LFS use with Artifactory.
 
 Create a local repository in Artifactory of type Git LFS. For this example, we will be using a repository called gitlfs-local on https://104.197.232.86/artifactory. To log in, the username is gitlfs and password is demo.
 
-Clone a Git repository and add files that you would like to push to the Github repository and any large files that you would like to push to the Git LFS local repository in Artifactory.
+Clone a Github repository and add files that you would like to push to this and any large files that you would like to push to the Git LFS local repository in Artifactory.
 
 In order to connect the Github repository to the Git LFS in Artifactory, we will need to change the ```.git/config``` file. A sample of the file is provided in this repository.
 
