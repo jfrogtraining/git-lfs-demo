@@ -1,5 +1,5 @@
 # git-lfs-demo
-This repository demonstrates git-lfs use with artifactory.
+This repository demonstrates Git LFS use with Artifactory.
 
 Create a local repository in Artifactory of type Git LFS. For this example, we will be using a repository called gitlfs-local on https://104.197.232.86/artifactory. To log in, the username is gitlfs and password is demo.
 
