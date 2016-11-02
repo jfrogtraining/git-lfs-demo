@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/jfrogtraining/git-lfs-demo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	#adding connection to git lfs repo in artifactory
+	lfsurl = "https://104.197.232.86/artifactory/api/lfs/gitLFS-local"
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[http]
+	#turn off check for ssl
+        sslverify = false
